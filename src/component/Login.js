@@ -49,6 +49,7 @@ const handleCheckbox=()=>{
 
 // for login button
   const onSubmit =(data)=>{
+    
     console.log(data)
     let getDataBox=JSON.parse(localStorage.getItem("dataBox"))
     console.log(getDataBox)
