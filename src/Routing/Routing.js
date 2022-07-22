@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import ForgotPassword from "../component/ForgotPassword"
 import Login from "../component/Login"
+import OtpHandler from "../component/OtpHnadler"
 import SignUp from "../component/SignUp"
 
 const Routing=()=>{
@@ -11,6 +12,7 @@ const Routing=()=>{
                 <Route path='/' element={<Login/>}/>
                 <Route path='/signup' element={<SignUp/>}/>
                 <Route path='/forgotpassword' element={<ForgotPassword/>}/>
+                <Route path='/otphandler' element={<OtpHandler/>}/>
             </Routes>
             </BrowserRouter>
 
